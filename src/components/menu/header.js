@@ -4,7 +4,6 @@ import Breakpoint, { BreakpointProvider, setDefaultBreakpoints } from "react-soc
 import { Link } from '@reach/router';
 import useOnclickOutside from "react-cool-onclickoutside";
 
-
 setDefaultBreakpoints([
   { xs: 0 },
   { l: 1199 },
@@ -24,10 +23,7 @@ const NavLink = props => (
   />
 );
 
-
-
-const Header= function() {
-
+const Header = function() {
     const [openMenu, setOpenMenu] = React.useState(false);
     const [openMenu1, setOpenMenu1] = React.useState(false);
     const [openMenu2, setOpenMenu2] = React.useState(false);

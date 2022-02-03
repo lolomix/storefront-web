@@ -36,7 +36,7 @@ const GlobalStyles = createGlobalStyle`
   }
 `;
 
-const homethree= () => (
+const homethree = () => (
   <div>
   <GlobalStyles />
       <section className="jumbotron no-bg no-bottom">

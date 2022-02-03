@@ -8,8 +8,8 @@ export const defaultState = {
 };
 
 const states = (state = defaultState, action) => {
-  switch (action.type) {
-    
+
+  switch (action.type) {  
     case getType(actions.getAuthorList.request):
       return { ...state, authorList: entityLoadingStarted(state.authorList, action.payload) };
     case getType(actions.getAuthorList.success):

@@ -9,7 +9,7 @@ import api from "../../core/api";
 
 const GlobalStyles = createGlobalStyle`
   header#myHeader.navbar.white {
-    background: #FFF; // #FAF6F1;
+    background: #FAF6F1;
     border-bottom: solid 1px #ccc !important;
   }
   .mainside{

@@ -5,7 +5,7 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   header#myHeader.navbar.white {
-    background: #FFF; // #FAF6F1;
+    background: #FAF6F1;
   }
 `;
 

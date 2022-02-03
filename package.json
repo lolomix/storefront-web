@@ -1,5 +1,5 @@
 {
-  "name": "blockparty",
+  "name": "gigaland",
   "version": "0.1.0",
   "private": true,
   "homepage": "./",
@@ -15,7 +15,9 @@
     "elegant-icons": "0.0.1",
     "emailjs-com": "^3.2.0",
     "et-line": "^1.0.1",
+    "ethers": "^5.5.4",
     "font-awesome": "^4.7.0",
+    "hardhat": "^2.8.3",
     "moment": "^2.29.1",
     "opensea-js": "^1.2.7",
     "react": "^17.0.2",
