@@ -18,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
     background-size: 400% 400%;
     animation: gradient 5s ease infinite;
     height: 100vh;
+    margin: 85px 0px 0px 0px;
   }
   
   @keyframes gradient {
@@ -43,7 +44,7 @@ const logintwo= () => (
 <div>
 <GlobalStyles/>
   <section className='jumbotron breadcumb no-bg gradient-animation'>
-    <div className='mainbreadcumb'>
+    <div className='mainbreadcumb no-bg'>
       <div className='container'>
         <div className='row align-items-center px-0'>
           <div className="col-lg-5 offset-lg-5 m-auto px-0">
