@@ -57,7 +57,213 @@ $color_more: #333;
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap');
+/* @import must be at top of file, otherwise CSS will not work */
+// @import url("//hello.myfonts.net/count/4249fa");
+  
+@font-face {
+  font-family: "Shapiro-Medium";
+  src: url('webFonts/ShapiroMedium/font.woff2') format('woff2'), url('webFonts/ShapiroMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-Light";
+  src: url('webFonts/ShapiroLight/font.woff2') format('woff2'), url('webFonts/ShapiroLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-WideItalic";
+  src: url('webFonts/ShapiroWideItalic/font.woff2') format('woff2'), url('webFonts/ShapiroWideItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-BoldWide";
+  src: url('webFonts/ShapiroBoldWide/font.woff2') format('woff2'), url('webFonts/ShapiroBoldWide/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-ExtraBoldItalic";
+  src: url('webFonts/ShapiroExtraBoldItalic/font.woff2') format('woff2'), url('webFonts/ShapiroExtraBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-Wide";
+  src: url('webFonts/ShapiroWide/font.woff2') format('woff2'), url('webFonts/ShapiroWide/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-BoldWideItalic";
+  src: url('webFonts/ShapiroBoldWideItalic/font.woff2') format('woff2'), url('webFonts/ShapiroBoldWideItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-Regular";
+  src: url('webFonts/ShapiroRegular/font.woff2') format('woff2'), url('webFonts/ShapiroRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-Book";
+  src: url('webFonts/ShapiroBook/font.woff2') format('woff2'), url('webFonts/ShapiroBook/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-SemiItalic";
+  src: url('webFonts/ShapiroSemiItalic/font.woff2') format('woff2'), url('webFonts/ShapiroSemiItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-BookItalic";
+  src: url('webFonts/ShapiroBookItalic/font.woff2') format('woff2'), url('webFonts/ShapiroBookItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-Bold";
+  src: url('webFonts/ShapiroBold/font.woff2') format('woff2'), url('webFonts/ShapiroBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-Italic";
+  src: url('webFonts/ShapiroItalic/font.woff2') format('woff2'), url('webFonts/ShapiroItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-BoldItalic";
+  src: url('webFonts/ShapiroBoldItalic/font.woff2') format('woff2'), url('webFonts/ShapiroBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-ExtraBold";
+  src: url('webFonts/ShapiroExtraBold/font.woff2') format('woff2'), url('webFonts/ShapiroExtraBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-MediumItalic";
+  src: url('webFonts/ShapiroMediumItalic/font.woff2') format('woff2'), url('webFonts/ShapiroMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-LightItalic";
+  src: url('webFonts/ShapiroLightItalic/font.woff2') format('woff2'), url('webFonts/ShapiroLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-Semi";
+  src: url('webFonts/ShapiroSemi/font.woff2') format('woff2'), url('webFonts/ShapiroSemi/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-HeadBook";
+  src: url('webFonts/ShapiroHeadBook/font.woff2') format('woff2'), url('webFonts/ShapiroHeadBook/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-SemiWideItalic";
+  src: url('webFonts/ShapiroSemiWideItalic/font.woff2') format('woff2'), url('webFonts/ShapiroSemiWideItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-HeadRegular";
+  src: url('webFonts/ShapiroHeadRegular/font.woff2') format('woff2'), url('webFonts/ShapiroHeadRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-HeadSemi";
+  src: url('webFonts/ShapiroHeadSemi/font.woff2') format('woff2'), url('webFonts/ShapiroHeadSemi/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-MaxSemi";
+  src: url('webFonts/ShapiroMaxSemi/font.woff2') format('woff2'), url('webFonts/ShapiroMaxSemi/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-MaxBook";
+  src: url('webFonts/ShapiroMaxBook/font.woff2') format('woff2'), url('webFonts/ShapiroMaxBook/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-MaxMedium";
+  src: url('webFonts/ShapiroMaxMedium/font.woff2') format('woff2'), url('webFonts/ShapiroMaxMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-ExtraBoldWide";
+  src: url('webFonts/ShapiroExtraBoldWide/font.woff2') format('woff2'), url('webFonts/ShapiroExtraBoldWide/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-HeadMedium";
+  src: url('webFonts/ShapiroHeadMedium/font.woff2') format('woff2'), url('webFonts/ShapiroHeadMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-MaxRegular";
+  src: url('webFonts/ShapiroMaxRegular/font.woff2') format('woff2'), url('webFonts/ShapiroMaxRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-SemiWide";
+  src: url('webFonts/ShapiroSemiWide/font.woff2') format('woff2'), url('webFonts/ShapiroSemiWide/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ShapiroVariable";
+  src: url('webFonts/ShapiroVariable/font.woff2') format('woff2'), url('webFonts/ShapiroVariable/font.woff') format('woff');
+}
 
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/4249f9");
+  
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url('webFonts/GilroyRegular/font.woff2') format('woff2'), url('webFonts/GilroyRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url('webFonts/GilroySemiBold/font.woff2') format('woff2'), url('webFonts/GilroySemiBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-RegularItalic";
+  src: url('webFonts/GilroyRegularItalic/font.woff2') format('woff2'), url('webFonts/GilroyRegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-SemiBoldItalic";
+  src: url('webFonts/GilroySemiBoldItalic/font.woff2') format('woff2'), url('webFonts/GilroySemiBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-MediumItalic";
+  src: url('webFonts/GilroyMediumItalic/font.woff2') format('woff2'), url('webFonts/GilroyMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-Thin";
+  src: url('webFonts/GilroyThin/font.woff2') format('woff2'), url('webFonts/GilroyThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-UltraLight";
+  src: url('webFonts/GilroyUltraLight/font.woff2') format('woff2'), url('webFonts/GilroyUltraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-BlackItalic";
+  src: url('webFonts/GilroyBlackItalic/font.woff2') format('woff2'), url('webFonts/GilroyBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url('webFonts/GilroyBlack/font.woff2') format('woff2'), url('webFonts/GilroyBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url('webFonts/GilroyMedium/font.woff2') format('woff2'), url('webFonts/GilroyMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-Heavy";
+  src: url('webFonts/GilroyHeavy/font.woff2') format('woff2'), url('webFonts/GilroyHeavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url('webFonts/GilroyLight/font.woff2') format('woff2'), url('webFonts/GilroyLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-ThinItalic";
+  src: url('webFonts/GilroyThinItalic/font.woff2') format('woff2'), url('webFonts/GilroyThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url('webFonts/GilroyBold/font.woff2') format('woff2'), url('webFonts/GilroyBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url('webFonts/GilroyExtraBold/font.woff2') format('woff2'), url('webFonts/GilroyExtraBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-LightItalic";
+  src: url('webFonts/GilroyLightItalic/font.woff2') format('woff2'), url('webFonts/GilroyLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-BoldItalic";
+  src: url('webFonts/GilroyBoldItalic/font.woff2') format('woff2'), url('webFonts/GilroyBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-HeavyItalic";
+  src: url('webFonts/GilroyHeavyItalic/font.woff2') format('woff2'), url('webFonts/GilroyHeavyItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-UltraLightItalic";
+  src: url('webFonts/GilroyUltraLightItalic/font.woff2') format('woff2'), url('webFonts/GilroyUltraLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-ExtraBoldItalic";
+  src: url('webFonts/GilroyExtraBoldItalic/font.woff2') format('woff2'), url('webFonts/GilroyExtraBoldItalic/font.woff') format('woff');
+}
 
 /*general*/
 html {scroll-behavior: auto;}
@@ -66,7 +272,7 @@ body {
   font-weight: 300;
   font-size: 16px;
   color: $general;
-  background: #FAF6F1;
+  background: $white;
   word-spacing: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -334,7 +540,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'Bungee', cursive;
+    font-family: "Gilroy-Black", cursive;
     margin-top: 0;
     font-weight: 700;
     color: #0d0c22;
@@ -728,7 +934,7 @@ p.lead {
   .item-dropdown{
     width: max-content;
     position: absolute;
-    background: #FAF6F1;
+    background: $white;
     border-radius: 0px;
     border: solid 1px #888;
     inset: 50px auto auto 0;
@@ -1012,11 +1218,11 @@ p.lead {
       position: fixed;
       top: 0;
       width: 100%;
-      background: #FAF6F1;
+      background: $white;
       border-bottom: 0;
       transition: all 0.6s ease;
         &.white{
-          background: #FAF6F1;
+          background: $white;
           box-shadow: 0 4px 20px 0 rgba(10,10,10,0);
           border-bottom: solid 1px #dddddd;
           .btn{
@@ -1043,7 +1249,7 @@ p.lead {
             font-size: 15px;
             border: solid 1px #888;
             color: $general;
-            background: #FDFBF8;
+            background: $white;
             width: 274px;
             height: 34px;
             outline: none;
@@ -2177,7 +2383,7 @@ address {
       display: inline-block;
       padding: 8px 10px;
       border: solid 1px #888;
-      background: #FDFBF8;
+      background: $white;
       border-radius: 0;
       margin-right: 5px;
       margin-bottom: 10px;
@@ -2208,7 +2414,7 @@ address {
       position: relative;
       padding-right: 100px;
       border: solid 1px #888;
-      background: #FDFBF8;
+      background: $white;
       box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
       img {
         width: 80px;
@@ -2568,7 +2774,7 @@ i.font60 {
     padding-bottom: 10px;
     border-radius: 0px;
     border: solid 1px #888;
-    background: #FDFBF8;
+    background: $white;
     box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
     margin: 10px;
     img{
@@ -2751,7 +2957,7 @@ i.font60 {
     padding: 20px;
     margin: 10px;
     border: solid 1px #888;
-    background: #FDFBF8;
+    background: $white;
     border-radius: 0;
     margin-bottom: 25px;
     transition: .7s;
@@ -2819,7 +3025,7 @@ i.font60 {
     font-size: .8rem;
     position: absolute;
     right: 20px;
-    background: #FAF6F1;
+    background: $white;
     padding: 6px 10px;
     border-radius: 0;
     border: solid 1px $color;
@@ -3042,7 +3248,7 @@ i.font60 {
     color: #ffffff;
 }
 .nft_pic_title {
-    font-family: 'Bungee', cursive; 
+    font-family: "Gilroy-Black",cursive; 
     display: block;
     font-weight: bold;
 }
@@ -3486,7 +3692,7 @@ img.img-rounded{
     padding: 20px 0;
     color: #a2a2a2;
     border: solid 1px #888;
-    background: #FDFBF8;
+    background: $white;
     display: block;
     border-radius: 0;
     box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
@@ -3504,7 +3710,7 @@ img.img-rounded{
       color: $color;
       padding: 2px 10px;
       border: solid 1px #888;
-      background: #FDFBF8;
+      background: $white;
       border-radius: 0;
     }
     i{
@@ -3570,7 +3776,7 @@ img.img-rounded{
 .box-login{
   padding: 40px;
   border: solid 1px #888;
-  background: #FDFBF8;
+  background: $white;
   border-radius: 0;
   p{
     color: $white !important;

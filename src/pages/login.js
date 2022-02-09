@@ -4,7 +4,7 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   header#myHeader.navbar.white {
-    background: #FAF6F1;
+    background: $white;
     border-bottom: solid 1px #ccc !important;
   }
   .box-login p{
