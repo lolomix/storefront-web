@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/4249fa");
+  
+@font-face {
+  font-family: "Shapiro-Medium";
+  src: url('webFonts/ShapiroMedium/font.woff2') format('woff2'), url('webFonts/ShapiroMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-Light";
+  src: url('webFonts/ShapiroLight/font.woff2') format('woff2'), url('webFonts/ShapiroLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-WideItalic";
+  src: url('webFonts/ShapiroWideItalic/font.woff2') format('woff2'), url('webFonts/ShapiroWideItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-BoldWide";
+  src: url('webFonts/ShapiroBoldWide/font.woff2') format('woff2'), url('webFonts/ShapiroBoldWide/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-ExtraBoldItalic";
+  src: url('webFonts/ShapiroExtraBoldItalic/font.woff2') format('woff2'), url('webFonts/ShapiroExtraBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-Wide";
+  src: url('webFonts/ShapiroWide/font.woff2') format('woff2'), url('webFonts/ShapiroWide/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-BoldWideItalic";
+  src: url('webFonts/ShapiroBoldWideItalic/font.woff2') format('woff2'), url('webFonts/ShapiroBoldWideItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-Regular";
+  src: url('webFonts/ShapiroRegular/font.woff2') format('woff2'), url('webFonts/ShapiroRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-Book";
+  src: url('webFonts/ShapiroBook/font.woff2') format('woff2'), url('webFonts/ShapiroBook/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-SemiItalic";
+  src: url('webFonts/ShapiroSemiItalic/font.woff2') format('woff2'), url('webFonts/ShapiroSemiItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-BookItalic";
+  src: url('webFonts/ShapiroBookItalic/font.woff2') format('woff2'), url('webFonts/ShapiroBookItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-Bold";
+  src: url('webFonts/ShapiroBold/font.woff2') format('woff2'), url('webFonts/ShapiroBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-Italic";
+  src: url('webFonts/ShapiroItalic/font.woff2') format('woff2'), url('webFonts/ShapiroItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-BoldItalic";
+  src: url('webFonts/ShapiroBoldItalic/font.woff2') format('woff2'), url('webFonts/ShapiroBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-ExtraBold";
+  src: url('webFonts/ShapiroExtraBold/font.woff2') format('woff2'), url('webFonts/ShapiroExtraBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-MediumItalic";
+  src: url('webFonts/ShapiroMediumItalic/font.woff2') format('woff2'), url('webFonts/ShapiroMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-LightItalic";
+  src: url('webFonts/ShapiroLightItalic/font.woff2') format('woff2'), url('webFonts/ShapiroLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-Semi";
+  src: url('webFonts/ShapiroSemi/font.woff2') format('woff2'), url('webFonts/ShapiroSemi/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-HeadBook";
+  src: url('webFonts/ShapiroHeadBook/font.woff2') format('woff2'), url('webFonts/ShapiroHeadBook/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-SemiWideItalic";
+  src: url('webFonts/ShapiroSemiWideItalic/font.woff2') format('woff2'), url('webFonts/ShapiroSemiWideItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-HeadRegular";
+  src: url('webFonts/ShapiroHeadRegular/font.woff2') format('woff2'), url('webFonts/ShapiroHeadRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-HeadSemi";
+  src: url('webFonts/ShapiroHeadSemi/font.woff2') format('woff2'), url('webFonts/ShapiroHeadSemi/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-MaxSemi";
+  src: url('webFonts/ShapiroMaxSemi/font.woff2') format('woff2'), url('webFonts/ShapiroMaxSemi/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-MaxBook";
+  src: url('webFonts/ShapiroMaxBook/font.woff2') format('woff2'), url('webFonts/ShapiroMaxBook/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-MaxMedium";
+  src: url('webFonts/ShapiroMaxMedium/font.woff2') format('woff2'), url('webFonts/ShapiroMaxMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-ExtraBoldWide";
+  src: url('webFonts/ShapiroExtraBoldWide/font.woff2') format('woff2'), url('webFonts/ShapiroExtraBoldWide/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-HeadMedium";
+  src: url('webFonts/ShapiroHeadMedium/font.woff2') format('woff2'), url('webFonts/ShapiroHeadMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-MaxRegular";
+  src: url('webFonts/ShapiroMaxRegular/font.woff2') format('woff2'), url('webFonts/ShapiroMaxRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Shapiro-SemiWide";
+  src: url('webFonts/ShapiroSemiWide/font.woff2') format('woff2'), url('webFonts/ShapiroSemiWide/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ShapiroVariable";
+  src: url('webFonts/ShapiroVariable/font.woff2') format('woff2'), url('webFonts/ShapiroVariable/font.woff') format('woff');
+}
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/4249f9");
+  
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url('webFonts/GilroyRegular/font.woff2') format('woff2'), url('webFonts/GilroyRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url('webFonts/GilroySemiBold/font.woff2') format('woff2'), url('webFonts/GilroySemiBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-RegularItalic";
+  src: url('webFonts/GilroyRegularItalic/font.woff2') format('woff2'), url('webFonts/GilroyRegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-SemiBoldItalic";
+  src: url('webFonts/GilroySemiBoldItalic/font.woff2') format('woff2'), url('webFonts/GilroySemiBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-MediumItalic";
+  src: url('webFonts/GilroyMediumItalic/font.woff2') format('woff2'), url('webFonts/GilroyMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-Thin";
+  src: url('webFonts/GilroyThin/font.woff2') format('woff2'), url('webFonts/GilroyThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-UltraLight";
+  src: url('webFonts/GilroyUltraLight/font.woff2') format('woff2'), url('webFonts/GilroyUltraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-BlackItalic";
+  src: url('webFonts/GilroyBlackItalic/font.woff2') format('woff2'), url('webFonts/GilroyBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url('webFonts/GilroyBlack/font.woff2') format('woff2'), url('webFonts/GilroyBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url('webFonts/GilroyMedium/font.woff2') format('woff2'), url('webFonts/GilroyMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-Heavy";
+  src: url('webFonts/GilroyHeavy/font.woff2') format('woff2'), url('webFonts/GilroyHeavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url('webFonts/GilroyLight/font.woff2') format('woff2'), url('webFonts/GilroyLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-ThinItalic";
+  src: url('webFonts/GilroyThinItalic/font.woff2') format('woff2'), url('webFonts/GilroyThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url('webFonts/GilroyBold/font.woff2') format('woff2'), url('webFonts/GilroyBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url('webFonts/GilroyExtraBold/font.woff2') format('woff2'), url('webFonts/GilroyExtraBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-LightItalic";
+  src: url('webFonts/GilroyLightItalic/font.woff2') format('woff2'), url('webFonts/GilroyLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-BoldItalic";
+  src: url('webFonts/GilroyBoldItalic/font.woff2') format('woff2'), url('webFonts/GilroyBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-HeavyItalic";
+  src: url('webFonts/GilroyHeavyItalic/font.woff2') format('woff2'), url('webFonts/GilroyHeavyItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-UltraLightItalic";
+  src: url('webFonts/GilroyUltraLightItalic/font.woff2') format('woff2'), url('webFonts/GilroyUltraLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-ExtraBoldItalic";
+  src: url('webFonts/GilroyExtraBoldItalic/font.woff2') format('woff2'), url('webFonts/GilroyExtraBoldItalic/font.woff') format('woff');
+}
+
+
+
+body,p,#mainmenu,#mainmenu *,#quick_search,.profile_username, .profile_wallet, .nft_attr h4, .nft_attr h5{
+    font-family: "Gilroy-Regular";
+    font-weight: 400;
+}
+
+.profile_username, .profile_wallet, .nft_attr h4, .nft_attr h5{
+    font-weight: bold;
+}
+
+.de-retro .icon-box.style-2:hover i, .de-retro .icon-box.style-2:hover span,a.btn-main:hover{
+    color: #000;
+    background:  #0d0c22;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+h1,
+h2,
+h4,
+h3,
+h5,
+h6,
+.h1_big,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+footer.footer-light h5,
+.nft_pic_title {
+    font-family: "Shapiro-BoldWide";
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+body.de-retro,
+.de-retro section,
+.de-retro header.smaller.header-light,
+.de-retro header.header-mobile.header-light,
+.de-retro .nft__item,
+.de-retro .nft_coll,
+.de-retro .de_countdown,
+.de-retro .nft_pic.style-2,
+.de-retro header.header-light,
+.de-retro header.scroll-light,
+.de-retro #content,
+#mainmenu ul,
+.owl-prev, .owl-next, .d-nav-left, .d-nav-right{
+background: #ffffff;
+}
+
+
+.de-retro section{
+    background-color: rgba(255, 100, 100, 0.0);
+}
+
+.de_countdown{
+    border-width: 1px;
+}
+
+.de-retro footer,
+.de-retro footer .widget a:hover{
+    color: #ffffff;
+}
+
+.de-retro .nft__item,
+.de-retro .nft_coll,
+.de-retro .nft_pic.style-2,
+.de-retro .box-url,
+.de-retro .box-url-label,
+.de-retro .activity-list li,
+.de-retro .activity-filter li,
+.box-retro,
+.de-retro .icon-box.style-2,
+.de-retro .de_tab.tab_simple .de_nav li:not(.active) span,
+#form_sb input[type=text],
+#form_sb #btn-submit i,
+#form_quick_search input[type=text],
+#form_quick_search i,
+.header-light #quick_search,
+a.btn-main:hover,
+.de-retro .de-submenu {
+    border: solid px #888;
+    background: #F6F6F9;
+    border-radius: 6px;
+    /* box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09); */
+}
+
+/* button on hover green */
+.de-retro .icon-box.style-2:hover i, .de-retro .icon-box.style-2:hover span,a.btn-main:hover{
+    color: #000;
+    background:  #D2FC51;
+    border-radius: 6px;
+}
+
+.nft_coll_pp img,
+.de-retro .author_list_pp img,
+.activity-list li:after,
+.d_coll .profile_avatar img,
+.de-retro .nft_pic,
+.de-retro .nft_pic.style-2,
+.nft_img_preview,
+.p_list_pp img{
+    border: solid px #333;
+     box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+}
+
+.de-menu-profile img,
+.de-menu-notification{
+    border: solid 1px #333;
+     box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+}
+
+
+.de-retro .de_tab.tab_simple .de_nav li.active span{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.de-retro .de_tab.tab_simple .de_nav li:not(.active) span,
+.de-retro .box-url-label,
+#form_quick_search input[type=text],
+#form_quick_search i,
+.de-retro .activity-filter li
+{
+     box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+#subheader{
+    padding: 120px 0 80px 0; 
+}
+.de-retro header.border-bottom,
+#subheader{
+    border-bottom: solid 1px #ccc !important;
+}
+
+.de-retro .nft__item,
+.de-retro .nft__item img,
+.de-retro .feature-box.f-boxed,
+.de-retro .feature-box i.i-boxed,
+.de-retro .nft_coll .nft_wrap,
+.de_countdown,
+.d-create-file,
+#mainmenu ul,
+.de_tab.tab_methods .de_nav li span,
+.form-border input[type=text], .form-border textarea, .form-underline input[type=email], .form-border input[type=password], .form-border input[type=date], .form-border select,.dropdown>a,
+.de-retro .item_filter_group,
+.de-retro .de_tab.tab_simple .de_nav li.active span,
+.item_info_counts>div,
+#form_quick_search input[type=text],
+.de-retro .nft_pic,
+#form_sb input[type=text],
+#form_sb #btn-submit i,
+#form_quick_search #btn-submit i,
+.de_form input[type="checkbox"] + label:before {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+.de-retro .rounded{
+    border-radius: 0 !important;
+}
+
+.de-retro .nft_coll .nft_wrap img{
+    padding-bottom: 0;
+}
+
+header a.btn-main,
+a.btn-main,
+a.btn-main:active,
+a.btn-main:focus,
+a.btn-main:visited,
+.btn-main,
+input[type=button].btn-main,
+#quick_search{
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.nft__item_extra{
+    background: #FDFBF8;
+    transform: scale(1.1);
+}
+
+@media(min-width:980px){
+    #mainmenu ul{
+         border: solid 1px #888;
+        border-radius: 0;
+        box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+        -webkit-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+        -moz-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+    }
+}
+
+
