@@ -42,7 +42,7 @@ const GlobalStyles = createGlobalStyle`
 
 const logintwo= () => (
 <div>
-<GlobalStyles/>
+  <GlobalStyles/>
   <section className='jumbotron breadcumb no-bg gradient-animation'>
     <div className='mainbreadcumb no-bg'>
       <div className='container'>
