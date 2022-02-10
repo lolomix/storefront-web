@@ -45,6 +45,13 @@ contract Market is ReentrancyGuard {
             price > 0, 
             "Free items aren't allowed"
             ); // prevent free items
+            
+        // We might also need to
+        //  limit the upper bound so that a 100% royalties
+        //  don't wreck the secondary sale.
+        require(
+            royalties < 50,
+            "Royalties can have a maximum of 50% share. Choose a lower percentage.");
 
         // If the contract has no NFT <> Creator 
         // relationship, it is being marketed for the
@@ -79,9 +86,11 @@ contract Market is ReentrancyGuard {
             string(abi.encodePacked("The required price to complete the purchase is: ", price)
             )); // ensure market price payment
         
+        // Ensuring a zero royalties percentage results
+        // in no royalties payouts. 
         uint8 royaltiesPercentage = itemsForSale[nftContract].royalties > 0 
             ? itemsForSale[nftContract].royalties 
-            : 0;
+            : 100;
         
         uint256 royaltiesPayout = price - (price * (royaltiesPercentage / 100));
         uint256 salePayout = price - royaltiesPayout;
