@@ -1,4 +1,43 @@
 import React from 'react';
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyles = createGlobalStyle`
+  header#myHeader.navbar.white {
+    background: $white;
+    border-bottom: solid 1px #ccc !important;
+  }
+  .box-login p{
+    color: #727272 !important;
+  }
+  .box-login{
+    padding: 40px 50px;
+  }
+  .gradient-animation {
+    background: radial-gradient(circle at bottom, navy 0, black 100%, purple 0);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    height: 100vh;
+    margin: 85px 0px 0px 0px;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 50% 100%;
+    }
+    50% {
+      background-position: 50% 50%;
+    }
+    75% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+`;
 
 const Login = () => (
     <div>

@@ -14,6 +14,7 @@ contract Market is ReentrancyGuard {
     }
 
     struct MarketItem {
+        uint256 tokenId;
         address nftContract;
         address payable seller;
         address payable owner;
@@ -29,6 +30,7 @@ contract Market is ReentrancyGuard {
     mapping(address => MarketItem) private itemsForSale;
 
     event MarketItemCreated (
+        uint256 tokenId,
         address indexed nftContract,
         address seller,
         address owner,
@@ -37,6 +39,7 @@ contract Market is ReentrancyGuard {
     );
     
     function createMarketItem(
+        uint256 tokenId,
         address nftContract,
         uint256 price,
         uint8 royalties
@@ -62,6 +65,7 @@ contract Market is ReentrancyGuard {
         }
         
         itemsForSale[nftContract] = MarketItem(
+            tokenId,
             nftContract,
             payable(msg.sender), // seller (creator) address
             payable(msg.sender), // owner (handler) address
@@ -70,6 +74,7 @@ contract Market is ReentrancyGuard {
         );
 
         emit MarketItemCreated(
+            tokenId,
             nftContract,
             msg.sender,
             msg.sender,
@@ -78,7 +83,11 @@ contract Market is ReentrancyGuard {
         );
     }
 
-    function createMarketSale(address nftContract, bool withdraw) public payable nonReentrant {
+    function createMarketSale(
+        uint256 tokenId,
+        address nftContract, 
+        bool withdraw) 
+        public payable nonReentrant {
         uint256 price = itemsForSale[nftContract].price;
         
         require(
@@ -109,7 +118,7 @@ contract Market is ReentrancyGuard {
         payable(seller).transfer(salePayout);
         // 4 - If the user chooses to move the NFT elsewhere, it is released to his own address
         if (withdraw) {
-            ERC721(nftContract).transferFrom(address(this), msg.sender, 12);
+            ERC721(nftContract).transferFrom(address(this), msg.sender, tokenId);
         }        
     }
 }
